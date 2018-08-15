@@ -13,7 +13,8 @@ const DEFAULT_ALLOW_HEADERS = [
   'X-HTTP-Method-Override',
   'Content-Type',
   'Authorization',
-  'Accept'
+  'TokeAccept',
+  'Token'
 ]
 
 const DEFAULT_MAX_AGE_SECONDS = 60 * 60 * 24 // 24 hours
